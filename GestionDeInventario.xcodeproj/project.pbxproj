@@ -11,6 +11,7 @@
 		0CAAB8A82C75EFB7004C6F33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAAB8A72C75EFB7004C6F33 /* ContentView.swift */; };
 		0CAAB8AA2C75EFB9004C6F33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CAAB8A92C75EFB9004C6F33 /* Assets.xcassets */; };
 		0CAAB8AD2C75EFB9004C6F33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CAAB8AC2C75EFB9004C6F33 /* Preview Assets.xcassets */; };
+		0CAAB8B42C75F5BB004C6F33 /* Inventario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAAB8B32C75F5BB004C6F33 /* Inventario.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		0CAAB8A72C75EFB7004C6F33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0CAAB8A92C75EFB9004C6F33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CAAB8AC2C75EFB9004C6F33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0CAAB8B32C75F5BB004C6F33 /* Inventario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventario.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		0CAAB8A42C75EFB7004C6F33 /* GestionDeInventario */ = {
 			isa = PBXGroup;
 			children = (
+				0CAAB8B32C75F5BB004C6F33 /* Inventario.swift */,
 				0CAAB8A52C75EFB7004C6F33 /* GestionDeInventarioApp.swift */,
 				0CAAB8A72C75EFB7004C6F33 /* ContentView.swift */,
 				0CAAB8A92C75EFB9004C6F33 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CAAB8A82C75EFB7004C6F33 /* ContentView.swift in Sources */,
+				0CAAB8B42C75F5BB004C6F33 /* Inventario.swift in Sources */,
 				0CAAB8A62C75EFB7004C6F33 /* GestionDeInventarioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
