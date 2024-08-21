@@ -12,7 +12,18 @@
 		0CAAB8AA2C75EFB9004C6F33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CAAB8A92C75EFB9004C6F33 /* Assets.xcassets */; };
 		0CAAB8AD2C75EFB9004C6F33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CAAB8AC2C75EFB9004C6F33 /* Preview Assets.xcassets */; };
 		0CAAB8B42C75F5BB004C6F33 /* Inventario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAAB8B32C75F5BB004C6F33 /* Inventario.swift */; };
+		0CAAB8BC2C760ABB004C6F33 /* GestionDeInventarioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAAB8BB2C760ABB004C6F33 /* GestionDeInventarioTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CAAB8BD2C760ABB004C6F33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CAAB89A2C75EFB6004C6F33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CAAB8A12C75EFB7004C6F33;
+			remoteInfo = GestionDeInventario;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0CAAB8A22C75EFB7004C6F33 /* GestionDeInventario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestionDeInventario.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -21,10 +32,19 @@
 		0CAAB8A92C75EFB9004C6F33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CAAB8AC2C75EFB9004C6F33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0CAAB8B32C75F5BB004C6F33 /* Inventario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventario.swift; sourceTree = "<group>"; };
+		0CAAB8B92C760ABB004C6F33 /* GestionDeInventarioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestionDeInventarioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CAAB8BB2C760ABB004C6F33 /* GestionDeInventarioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestionDeInventarioTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0CAAB89F2C75EFB7004C6F33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CAAB8B62C760ABB004C6F33 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				0CAAB8A42C75EFB7004C6F33 /* GestionDeInventario */,
+				0CAAB8BA2C760ABB004C6F33 /* GestionDeInventarioTests */,
 				0CAAB8A32C75EFB7004C6F33 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				0CAAB8A22C75EFB7004C6F33 /* GestionDeInventario.app */,
+				0CAAB8B92C760ABB004C6F33 /* GestionDeInventarioTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +92,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		0CAAB8BA2C760ABB004C6F33 /* GestionDeInventarioTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CAAB8BB2C760ABB004C6F33 /* GestionDeInventarioTests.swift */,
+			);
+			path = GestionDeInventarioTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -90,6 +120,24 @@
 			productReference = 0CAAB8A22C75EFB7004C6F33 /* GestionDeInventario.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0CAAB8B82C760ABB004C6F33 /* GestionDeInventarioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CAAB8BF2C760ABB004C6F33 /* Build configuration list for PBXNativeTarget "GestionDeInventarioTests" */;
+			buildPhases = (
+				0CAAB8B52C760ABB004C6F33 /* Sources */,
+				0CAAB8B62C760ABB004C6F33 /* Frameworks */,
+				0CAAB8B72C760ABB004C6F33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CAAB8BE2C760ABB004C6F33 /* PBXTargetDependency */,
+			);
+			name = GestionDeInventarioTests;
+			productName = GestionDeInventarioTests;
+			productReference = 0CAAB8B92C760ABB004C6F33 /* GestionDeInventarioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -102,6 +150,10 @@
 				TargetAttributes = {
 					0CAAB8A12C75EFB7004C6F33 = {
 						CreatedOnToolsVersion = 15.4;
+					};
+					0CAAB8B82C760ABB004C6F33 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0CAAB8A12C75EFB7004C6F33;
 					};
 				};
 			};
@@ -119,6 +171,7 @@
 			projectRoot = "";
 			targets = (
 				0CAAB8A12C75EFB7004C6F33 /* GestionDeInventario */,
+				0CAAB8B82C760ABB004C6F33 /* GestionDeInventarioTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +183,13 @@
 			files = (
 				0CAAB8AD2C75EFB9004C6F33 /* Preview Assets.xcassets in Resources */,
 				0CAAB8AA2C75EFB9004C6F33 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CAAB8B72C760ABB004C6F33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +206,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0CAAB8B52C760ABB004C6F33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CAAB8BC2C760ABB004C6F33 /* GestionDeInventarioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CAAB8BE2C760ABB004C6F33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CAAB8A12C75EFB7004C6F33 /* GestionDeInventario */;
+			targetProxy = 0CAAB8BD2C760ABB004C6F33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0CAAB8AE2C75EFB9004C6F33 /* Debug */ = {
@@ -324,6 +400,40 @@
 			};
 			name = Release;
 		};
+		0CAAB8C02C760ABB004C6F33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RickGaticaDev.GestionDeInventarioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GestionDeInventario.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GestionDeInventario";
+			};
+			name = Debug;
+		};
+		0CAAB8C12C760ABB004C6F33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RickGaticaDev.GestionDeInventarioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GestionDeInventario.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GestionDeInventario";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -341,6 +451,15 @@
 			buildConfigurations = (
 				0CAAB8B12C75EFB9004C6F33 /* Debug */,
 				0CAAB8B22C75EFB9004C6F33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CAAB8BF2C760ABB004C6F33 /* Build configuration list for PBXNativeTarget "GestionDeInventarioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CAAB8C02C760ABB004C6F33 /* Debug */,
+				0CAAB8C12C760ABB004C6F33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
