@@ -1,4 +1,4 @@
-# Este flujo de trabajo construirá un proyecto de iOS usando Xcode
+# Este flujo de trabajo construirá y probará un proyecto de iOS usando Xcode
 name: iOS CI
 
 on:
@@ -21,3 +21,4 @@ jobs:
 
     - name: Build and test
       run: xcodebuild -project GestionDeInventario.xcodeproj -scheme GestionDeInventario -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 12,OS=latest' clean build test
+
